@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find Pairs</title>
+    <link rel="stylesheet" href="styleForLVL3.css">
+</head>
+<body>
+    <div class="workspace">
+        <h1>Уровень 3</h1>
+        <h2 class = "timer">Время игры: 0.0 sec</h2>
+        <h2 id="score">Осталось попыток: 3</h2>
+        
+        <div class="game-zone">
+        <div class="blocks" id = 'block1'>
+            <img class = "images" id = "img1" data-img = "true" src="./resources/animal1.png" alt="paimon">
+            <div class="boxes" id = "box1" disable = "true" data-box = "true" content = "./resources/animal1.png"></div>
+        </div>
+
+        <div class="blocks" id = 'block2'>
+            <img class = "images" id = "img2" data-img = "true" src="./resources/apple.png" alt="paimon">
+            <div class="boxes" id = "box2" data-box = "true" content = "./resources/apple.png"></div>
+        </div>
+
+        <div class="blocks" id = 'block3'>
+            <img class = "images" id = "img3" data-img = "true" src = "./resources/cvetok.png" alt="paimon">
+            <div class="boxes" id = "box3" data-box = "true" content = "./resources/cvetok.jpeg"></div>
+        </div>
+
+        <div class="blocks" id = 'block4'>
+            <img class = "images" id = "img4" data-img = "true" src="./resources/gtibok.png" alt="paimon">
+            <div class="boxes" id = "box4" data-box = "true" content = "./resources/gtibok.gif"></div>
+        </div>
+
+        <div class="blocks" id = 'block5'>
+            <img class = "images" id = "img5" data-img = "true" src="./resources/kaban.png" alt="paimon">
+            <div class="boxes" id = "box5" data-box = "true" content = "./resources/kaban.png"></div>
+        </div>
+        
+        <div class="blocks" id = 'block6'>
+            <img class = "images" id = "img6" data-img = "true" src="./resources/kot.jpeg" alt="paimon">
+            <div class="boxes" id = "box6" data-box = "true" content = "./resources/kot.png"></div>
+        </div>
+
+        <div class="blocks" id = 'block7'>
+            <img class = "images" id = "img7" data-img = "true" src="./resources/morkovka.png" alt="paimon">
+            <div class="boxes" id = "box7" disable = "true" data-box = "true" content = "./resources/morkovka.png"></div>
+        </div>
+
+        <div class="blocks" id = 'block8'>
+            <img class = "images" id = "img8" data-img = "true" src="./resources/redis.png" alt="paimon">
+            <div class="boxes" id = "box8" data-box = "true" content = "./resources/redis.png"></div>
+        </div>
+
+        <div class="blocks" id = 'block9'>
+            <img class = "images" id = "img9" data-img = "true" src = "./resources/yagoda.png" alt="paimon">
+            <div class="boxes" id = "box9" data-box = "true" content = "./resources/yagoda.png"></div>
+        </div>
+
+        <div class="blocks" id = 'block10'>
+            <img class = "images" id = "img10" data-img = "true" src="./resources/zakatnik.png" alt="paimon">
+            <div class="boxes" id = "box10" data-box = "true" content = "./resources/zakatnik.png"></div>
+        </div>
+
+        <div class="blocks" id = 'block11'>
+            <img class = "images" id = "img11" data-img = "true" src="./resources/animal1.png" alt="paimon">
+            <div class="boxes" id = "box11" disable = "true" data-box = "true" content = "./resources/animal1.png"></div>
+        </div>
+
+        <div class="blocks" id = 'block12'>
+            <img class = "images" id = "img12" data-img = "true" src="./resources/apple.png" alt="paimon">
+            <div class="boxes" id = "box12" data-box = "true" content = "./resources/apple.png"></div>
+        </div>
+
+        <div class="blocks" id = 'block13'>
+            <img class = "images" id = "img13" data-img = "true" src = "./resources/cvetok.png" alt="paimon">
+            <div class="boxes" id = "box13" data-box = "true" content = "./resources/cvetok.jpeg"></div>
+        </div>
+
+        <div class="blocks" id = 'block14'>
+            <img class = "images" id = "img14" data-img = "true" src="./resources/gtibok.png" alt="paimon">
+            <div class="boxes" id = "box14" data-box = "true" content = "./resources/gtibok.gif"></div>
+        </div>
+
+        <div class="blocks" id = 'block15'>
+            <img class = "images" id = "img15" data-img = "true" src="./resources/kaban.png" alt="paimon">
+            <div class="boxes" id = "box15" data-box = "true" content = "./resources/kaban.png"></div>
+        </div>
+        
+        <div class="blocks" id = 'block16'>
+            <img class = "images" id = "img16" data-img = "true" src="./resources/kot.jpeg" alt="paimon">
+            <div class="boxes" id = "box16" data-box = "true" content = "./resources/kot.png"></div>
+        </div>
+
+        <div class="blocks" id = 'block17'>
+            <img class = "images" id = "img17" data-img = "true" src="./resources/morkovka.png" alt="paimon">
+            <div class="boxes" id = "box17" disable = "true" data-box = "true" content = "./resources/morkovka.png"></div>
+        </div>
+
+        <div class="blocks" id = 'block18'>
+            <img class = "images" id = "img18" data-img = "true" src="./resources/redis.png" alt="paimon">
+            <div class="boxes" id = "box18" data-box = "true" content = "./resources/redis.png"></div>
+        </div>
+
+        <div class="blocks" id = 'block19'>
+            <img class = "images" id = "img19" data-img = "true" src = "./resources/yagoda.png" alt="paimon">
+            <div class="boxes" id = "box19" data-box = "true" content = "./resources/yagoda.png"></div>
+        </div>
+
+        <div class="blocks" id = 'block20'>
+            <img class = "images" id = "img20" data-img = "true" src="./resources/zakatnik.png" alt="paimon">
+            <div class="boxes" id = "box20" data-box = "true" content = "./resources/zakatnik.png"></div>
+        </div>
+
+
+        
+    </div>
+    <button id = "start-button">Начать!</button>
+    <div class="win-block"><h1>Подзравляем! Вы справились за 15 секунд<h1></div>
+    <div class="lose-block"><h1>Вы проиграли!</h1></div>
+       
+        
+    </div>
+
+    <script src="scriptForLVL3.js"></script>
+</body>
+</html>

@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(246,255,9,0.642691415313225) 0%, rgba(0,241,255,1) 100%)
+}
+.workspace{
+    width: 650px;
+    height: 650px;
+    background-color: white;
+    padding: 20px;
+    margin: 150px auto;
+    text-align: center;
+    position: relative;
+}
+.game-zone {
+    width: 600px;
+    height: 350px;
+}
+
+.images {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    left: 0px;
+    pointer-events: none;
+}
+
+.boxes {
+    position: absolute;
+    background-color: black;
+    height: 100px;
+    width: 100px;
+    cursor:pointer;
+}
+
+.blocks {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+}
+
+h2 {
+    margin: 10px;
+    text-align: start;
+    position: relative;
+}
+
+#score {
+    position: relative;
+    top:-39px;
+    text-align: end;
+}
+
+.win-block{
+    top: 300 auto;
+    font-size: 14px; 
+    text-align: center;
+    position: relative;
+    top: 25px;
+    visibility: hidden;
+}
+
+.lose-block {
+    top: 300 auto;
+    font-size: 14px; 
+    text-align: center;
+    visibility: hidden
+}
+
+button {
+    background-color: #ccc;
+    height: 50px;
+    width: 150px;
+    border-radius: 10px;
+    border: 2px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: -100;
+    top: 10;
+    cursor: pointer;
+}
+
+#next-lvl {
+    width: 100px;
+    height: 50px;
+    position: relative;
+    top: -115px;
+    right: -260px;
+    visibility: hidden;
+}

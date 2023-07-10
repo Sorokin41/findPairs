@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(246,255,9,0.642691415313225) 0%, rgba(0,241,255,1) 100%)
+}
+
+.workspace{
+    width: 350px;
+    height: 250px;
+    background-color: white;
+    padding: 20px;
+    margin: 100px auto;
+    text-align: center;
+    position: relative;
+}
+
+button{
+    position: relative;
+    height: 50px;
+    width: 100px;
+    margin: 10px
+}
