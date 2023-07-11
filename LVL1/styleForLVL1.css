@@ -84,12 +84,3 @@ button {
     top: 10;
     cursor: pointer;
 }
-
-#next-lvl {
-    width: 100px;
-    height: 50px;
-    position: relative;
-    top: -115px;
-    right: -260px;
-    visibility: hidden;
-}

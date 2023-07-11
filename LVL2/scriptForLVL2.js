@@ -1,8 +1,7 @@
 var $gameZone = document.querySelector('.game-zone')
 var $score = document.querySelector('#score')
-var $startButton = document.querySelector('button')
-var $blocks = document.querySelectorAll('.blocks')
 var $button = document.querySelector('button')
+var $blocks = document.querySelectorAll('.blocks')
 var $timer = document.querySelector('.timer')
 
 var isGameStarted = false
@@ -17,7 +16,6 @@ var interval
 hide($gameZone)
 
 $gameZone.addEventListener('click', blockClicked)
-$startButton.addEventListener('click', startGame)
 $button.addEventListener('click', startGame)
 
 

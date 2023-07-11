@@ -1,9 +1,7 @@
 var $gameZone = document.querySelector('.game-zone')
 var $score = document.querySelector('#score')
-var $startButton = document.querySelector('#start-button')
-var $nextLVLButton = document.querySelector('#next-lvl')
-var $blocks = document.querySelectorAll('.blocks')
 var $button = document.querySelector('button')
+var $blocks = document.querySelectorAll('.blocks')
 var $timer = document.querySelector('.timer')
 
 var isGameStarted = false
@@ -18,9 +16,7 @@ var interval
 hide($gameZone)
 
 $gameZone.addEventListener('click', blockClicked)
-$startButton.addEventListener('click', startGame)
 $button.addEventListener('click', startGame)
-$nextLVLButton.addEventListener('click', nexLVL)
 
 
 
@@ -118,8 +114,7 @@ function winGame() {
     document.querySelector('.win-block h1').textContent = 'Подзравляем! Вы справились за ' + time.toFixed(1) + ' секунд'
     document.querySelector('.win-block').style.visibility = 'visible'
     clearInterval(interval)
-    $nextLVLButton.style.visibility = 'visible'
-    $startButton.style.visibility = 'visible'
+    $button.style.visibility = 'visible'
     $button.textContent = 'Сыграть еще раз'
 }
 
